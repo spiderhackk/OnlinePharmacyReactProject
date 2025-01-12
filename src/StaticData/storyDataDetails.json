@@ -1,0 +1,38 @@
+
+{"storyDetails" :[
+    {"name":"Dwayne Johnson",
+    "img":"https://images.javatpoint.com/top10-technologies/images/top-10-hollywood-actors1.png"
+    },
+    
+    {"name":"Tom Cruise",
+        "img":"https://images.javatpoint.com/top10-technologies/images/top-10-hollywood-actors3.png"
+        },
+
+        {"name":"Vin Diesel",
+            "img":"https://images.javatpoint.com/top10-technologies/images/top-10-hollywood-actors2.png"
+            },
+            {"name":"Johnny Deep",
+                "img":"https://images.javatpoint.com/top10-technologies/images/top-10-hollywood-actors4.png"
+                },
+                {"name":"Robert Downey Jr",
+                    "img":"https://images.javatpoint.com/top10-technologies/images/top-10-hollywood-actors5.png"
+                    },
+                    {
+                        "name":"Leonardo Dicaprio",
+                        "img":"https://images.javatpoint.com/top10-technologies/images/top-10-hollywood-actors6.png"
+                    },
+                    {
+                        "name":"Henry Cavill",
+                        "img":"https://images.javatpoint.com/top10-technologies/images/top-10-hollywood-actors7.png"
+                    },
+                    {
+                        "name":"Chris Hemsworth",
+                        "img":"https://images.javatpoint.com/top10-technologies/images/top-10-hollywood-actors8.png"
+                    },
+                    {
+                        "name":"Chris Evans",
+                        "img":"https://images.javatpoint.com/top10-technologies/images/top-10-hollywood-actors9.png"
+                    }
+    
+]
+}
