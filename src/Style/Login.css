@@ -1,0 +1,32 @@
+.container-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.container-details input{
+    border: 1px solid rgb(170, 170, 170);
+    border-radius: 5px;
+    width: 400px;
+    padding: 5px;
+
+}
+.container-details button{
+    width: 400px;
+    padding: 10px;
+    font-weight: bolder; 
+    background-color: rgb(27, 27, 66);   
+    color: white;
+    border-radius: 5px;
+}
+.container-details input:focus{
+    border: 2px solid rgb(35, 183, 241);
+}
+.container-details label{
+    font-weight: bolder;
+}
+
+.Sign-in-link{
+    display: flex;
+    flex-direction: row;
+}

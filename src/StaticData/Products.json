@@ -1,0 +1,75 @@
+{
+    "medicines": [
+      {
+        "id": 1,
+        "name": "Paracetamol 500mg",
+        "price": 10.99,
+        "exp_date": "2025-10-12",
+        "mfg_company": "PharmaTech Ltd."
+      },
+      {
+        "id": 2,
+        "name": "Aspirin 100mg",
+        "price": 7.49,
+        "exp_date": "2024-05-20",
+        "mfg_company": "MedicaPharm"
+      },
+      {
+        "id": 3,
+        "name": "Amoxicillin 250mg",
+        "price": 15.99,
+        "exp_date": "2026-08-30",
+        "mfg_company": "HealthMeds"
+      },
+      {
+        "id": 4,
+        "name": "Ibuprofen 200mg",
+        "price": 12.49,
+        "exp_date": "2025-11-05",
+        "mfg_company": "CureAll Pharmaceuticals"
+      },
+      {
+        "id": 5,
+        "name": "Cetirizine 10mg",
+        "price": 6.99,
+        "exp_date": "2024-09-18",
+        "mfg_company": "AllerCare"
+      },
+      {
+        "id": 6,
+        "name": "Loratadine 10mg",
+        "price": 8.99,
+        "exp_date": "2025-03-25",
+        "mfg_company": "MediGenix"
+      },
+      {
+        "id": 7,
+        "name": "Omeprazole 20mg",
+        "price": 11.49,
+        "exp_date": "2026-01-15",
+        "mfg_company": "GastroHealth"
+      },
+      {
+        "id": 8,
+        "name": "Diazepam 10mg",
+        "price": 13.99,
+        "exp_date": "2024-12-22",
+        "mfg_company": "NeuroPharm"
+      },
+      {
+        "id": 9,
+        "name": "Metformin 500mg",
+        "price": 14.99,
+        "exp_date": "2025-07-30",
+        "mfg_company": "DiabetesCare"
+      },
+      {
+        "id": 10,
+        "name": "Simvastatin 20mg",
+        "price": 18.49,
+        "exp_date": "2026-04-11",
+        "mfg_company": "HeartHealth Labs"
+      }
+    ]
+  }
+  

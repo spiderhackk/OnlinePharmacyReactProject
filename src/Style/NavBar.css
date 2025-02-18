@@ -1,0 +1,61 @@
+.hdr-container{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    gap: 15px;
+    width: 700px;
+    justify-content: center;
+    margin-left:33.33%;
+    padding: 10px;
+    border-radius: 30px;
+    align-items: center;
+    text-decoration: none;
+    
+    
+}
+a{
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+img{
+    width: 10%;
+    font-size: 100px;
+    mix-blend-mode: multiply;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+}
+
+.login-btn{
+    
+}
+
+.profile-container{
+    position: relative;
+    display: inline-block;
+}
+.profile-items-list{
+    position: absolute;
+    display: none;
+    width: 100px;
+    box-shadow: 0px 8px 16px 0px;
+    list-style-type: none;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right:10px ;
+    padding-left: 10px;
+
+}
+.profile-container:hover .profile-items-list{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+
+

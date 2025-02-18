@@ -1,0 +1,208 @@
+.header-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+
+}
+
+
+h2{
+    font-size: 20px;
+    color: rgb(46, 158, 160);
+}
+.body-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    position: relative;
+    
+}
+::placeholder{
+    opacity: 0.4;
+    font-size: 20px;
+}
+input{
+    font-size: x-large;
+    width: 54%;
+    padding: 20px;
+    border-radius: 30px;
+    border: 2px solid red;
+    outline: none;
+}
+
+.body-items button{
+    width: 150px;
+    padding: 26px;
+    position: absolute;
+    margin-left:42.4%;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(255, 253, 253);
+    color: black;
+    cursor: pointer;
+    outline: none;
+}
+.list-search{
+    display: flex;
+    justify-content: flex-start;
+    max-width: 45%;
+    margin-left: 380px;
+    padding: 20px;
+    border-bottom: dotted;
+    list-style: none;
+
+
+
+}
+.items{
+    display: flex;
+    gap: 10px;
+}
+
+.button-flex{
+    display: flex;
+    max-width: 100%;
+    justify-content: flex-end
+}
+
+.add-item-input{
+    position: relative;
+    border: 2px solid rgb(238, 159, 11);
+    border-radius: 5px;
+    padding: 2px;
+    max-width: 250px
+
+}
+
+.add-item-button{
+    /* position: absolute; */
+    text-align: center;
+    border: 2px solid rgb(230, 155, 17);
+    width: 100px;
+}
+
+.card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 80%;
+    margin-left: 100px;
+    padding: 100px;
+    
+}
+.items-details{
+    display: flex;
+    gap: 5px;
+}
+
+.items-details li:nth-child(1){
+    font-weight: bolder;
+    font-size: 20px;
+}
+.list-items-details{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.checkout-btn{
+    display: flex;
+    float: right;
+    padding: 10px;
+    font-weight: bolder;
+    background-color: rgb(255, 171, 14);
+    color: white;
+    border: 1px solid ;
+    cursor: pointer;
+
+}
+.items-counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    border: none ;
+    margin-left: 400px;
+    
+}
+.counter{
+    font-weight: bolder;
+    background-color: rgb(255, 171, 14);
+    color: white;
+    cursor: pointer;
+    border:none;
+    font-size: 20px;
+    width: 50px;
+    height: 40px;
+
+}
+
+
+.counter-display{
+    border: none;
+    width: 50px;
+    font-weight: bolder;
+    font-size: 20px;
+    text-align: center;
+}
+
+.your-cart-header{
+    display: flex;
+    margin-left: 100px;
+    font-size: 30px;
+    font-weight: bolder;
+
+
+}   
+
+.empty-your-cart-header{
+    display: flex;
+    margin-left: 100px;
+    font-size: 30px;
+    font-weight: bolder;
+    justify-content: center;
+    align-items: center;
+    
+
+} 
+
+.empty-card{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    width: 95%;
+    margin-left: 35px;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.cart-icon{
+    font-size: 60px;
+}
+
+.cart-container {
+    position: relative; /* Positioning context for the badge */
+    display: inline-block;
+}
+
+
+.cart-count {
+    position: absolute;
+    top: -5px; /* Adjust to place the count above the icon */
+    right: -10px; /* Adjust to position it to the right of the icon */
+    background-color: red; /* Background color of the badge */
+    color: white; /* Text color */
+    border-radius: 50%; /* Makes the badge round */
+    padding: 3px 5px; /* Padding for the badge */
+    font-size: 10px; /* Adjust font size */
+    font-weight: bold; /* Bold text */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 20px; /* Minimum width for the badge */
+    height: 20px; /* Height of the badge */
+    text-align: center;
+}
